@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif; /* Устанавливаем шрифт */
+    display: flex; /* Используем flexbox для центрирования */
+    justify-content: center; /* Центрируем по горизонтали */
+    align-items: center; /* Центрируем по вертикали */
+    height: 100vh; /* Задаем высоту на весь экран */
+    background-color: #f4f4f4; /* Цвет фона */
+}
+
+.calculator {
+    background: white; /* Цвет фона калькулятора */
+    padding: 20px; /* Отступы внутри калькулятора */
+    border-radius: 8px; /* Скругление углов */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Тень для эффекта глубины */
+}
+
+input {
+    width: 100%; /* Ширина поля ввода на 100% */
+    padding: 10px; /* Отступы внутри поля ввода */
+    margin-bottom: 10px; /* Отступ снизу */
+    border: 1px solid #ccc; /* Цвет рамки */
+    border-radius: 4px; /* Скругление углов */
+}
+
+button {
+    width: 100%; /* Ширина кнопки на 100% */
+    padding: 10px; /* Отступы внутри кнопки */
+    background-color: #007bff; /* Цвет фона кнопки */
+    color: white; /* Цвет текста кнопки */
+    border: none; /* Убираем рамку */
+    border-radius: 4px; /* Скругление углов */
+    cursor: pointer; /* Курсор при наведении */
+}
+
+button:hover {
+    background-color: #0056b3; /* Цвет фона кнопки при наведении */
+}
+
+#result {
+    margin-top: 10px; /* Отступ сверху */
+    font-size: 1.2rem; /* Размер шрифта для результата */
+}
